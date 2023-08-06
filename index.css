@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  margin-top: 200px;
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+.container {
+  width: 400px;
+}
+
+.container > p {
+  font-size: 32px;
+  position: relative;
+  cursor: pointer;
+}
+
+.container > p {
+  background-color: salmon;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.container > p > img {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  transition: transform 0.3s;
+}
+
+img {
+  width: 25px;
+}
+
+ul {
+  color: white;
+  display: none;
+}
+
+ul > li {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  background-color: lightseagreen;
+  padding: 15px;
+  transition-duration: 0.5s;
+}
+
+ul > li > a:hover {
+  opacity: 0.75;
+  padding-left: 25px;
+}
+
+ul > li > a > img {
+  margin-right: 10px;
+}/*# sourceMappingURL=index.css.map */
